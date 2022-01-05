@@ -1,18 +1,15 @@
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;900&display=swap');
 
-
-
 @font-face {
   font-family: "by-bike-landing";
   src:url("https://martacg.github.io/by-bike-landing/assets/fonts/by-bike-landing.eot");
-  src:url("fhttps://martacg.github.io/by-bike-landing/assets/fonts/by-bike-landing.eot?#iefix") format("embedded-opentype"),
+  src:url("https://martacg.github.io/by-bike-landing/assets/fonts/by-bike-landing.eot?#iefix") format("embedded-opentype"),
     url("https://martacg.github.io/by-bike-landing/assets/fonts/by-bike-landing.woff") format("woff"),
     url("https://martacg.github.io/by-bike-landing/assets/fonts/by-bike-landing.ttf") format("truetype"),
     url("https://martacg.github.io/by-bike-landing/assets/fonts/by-bike-landing.svg#by-bike-landing") format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
 
 [data-icon]:before {
