@@ -1,0 +1,37 @@
+.main{
+    height:100vh;
+    width:100vw;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: column;
+    justify-content: center;
+    &:after{
+        content: "";
+        width: 20vw;
+        height: 100vh;
+        background: transparent url(../assets/images/bg-shape-2.png) scroll no-repeat center bottom;
+        background-size: 20vw;
+        opacity: 0.5;
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0);
+
+    }
+}
+
+@media screen and (max-width:1126px){
+    .main{
+        height: auto !important;
+        &:after{
+            height: auto;
+        }
+    }
+
+}
+

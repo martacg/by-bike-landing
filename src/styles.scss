@@ -1,0 +1,23 @@
+@import "helpers/mixins";
+@import "helpers/vars";
+
+html, body, figure{
+    margin:0;
+    padding:0;
+}
+body{
+    background: transparent url('assets/images/background.jpg') scroll repeat 0 0;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    &.btn{
+        background-color: #45ac75;
+        color: #1c1c1c;
+        display: block;
+        width: 100px;
+        text-align: center
+    }
+    
+}
