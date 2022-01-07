@@ -1,7 +1,8 @@
 @import "../../../helpers/mixins";
 @import "../../../helpers/vars";
 .footer{
-    
+    position: relative;
+    z-index: 3;
     .footer__content{
 
         width: calc(100% - 2%);
