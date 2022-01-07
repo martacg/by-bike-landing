@@ -1,4 +1,6 @@
 .header{ 
+    position: relative;
+    z-index: 3;
     .header__content{
         padding: 0 4%;
         width: calc(100% - 8%);
@@ -37,19 +39,21 @@
                     &:last-child{
                         margin-right: 0;
                     }
-                    &.active{
-                        background-color: #000;
-                        a{
-                            color: #e8e8e8;
-                        }
-                    }
+
                     a{
                         text-decoration: none;
                         color: #000;
                         font-weight: 600;
                         font-size: 1.6rem;
                         text-transform: uppercase;
+
                     } 
+                    .active{
+                        background-color: #000;
+                        color: #e8e8e8;
+                        padding: 0 20px;
+                        
+                    }
                 }
             }
         }

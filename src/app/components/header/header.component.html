@@ -5,10 +5,16 @@
         </figure>
         <nav class="mainnav">
             <ul>
-                <li class="active"><a href="#" title="Home">Home</a></li>
-                <li><a href="#" title="About us">About us</a></li>
-                <li><a href="#" title="Gallery">Gallery</a></li>
-                <li><a href="#" title="Join us">Join us</a></li>
+                <li>
+                    <a [routerLink]="['/home']" [routerLinkActive]="['active']" title="Home">Home</a></li>
+                <li>
+                    <a [routerLink]="['/about-us']" [routerLinkActive]="['active']" title="About us">About us</a></li>
+                <li>
+                    <a [routerLink]="['/gallery']" [routerLinkActive]="['active']" title="Gallery">Gallery</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/join-us']" [routerLinkActive]="['active']" title="Join us">Join us</a>
+                </li>
             </ul>
         </nav>
     </div>
